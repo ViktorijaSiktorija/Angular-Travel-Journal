@@ -1,0 +1,17 @@
+<article class="journal-entry">
+  <div class="main-image-container">
+    <img
+      class="main-image"
+      src="{{ travel.img.src }}"
+      alt="{{ travel.img.alt }}"
+    />
+  </div>
+  <div class="info-container">
+    <img class="marker" src="Fill 219.png" alt="map marker icon" />
+    <span class="country">{{ travel.country }} </span>
+    <a href="{{ travel.googleMapsLink }}">View on Google Maps</a>
+    <h2 class="entry-title">{{ travel.title }}</h2>
+    <p class="trip-dates">{{ travel.dates }}</p>
+    <p class="entry-text">{{ travel.text }}</p>
+  </div>
+</article>

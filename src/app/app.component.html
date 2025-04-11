@@ -1,0 +1,4 @@
+<app-header />
+<article className="journal-entry" *ngFor="let entry of entries">
+  <app-travel-card [travel]="entry" />
+</article>
